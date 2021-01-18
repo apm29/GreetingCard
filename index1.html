@@ -514,7 +514,7 @@
       resolve(`${name}给您发来了新春祝福`)
     }).then(title => {
       window.document.title = title
-      let img = window.location.origin + '/logo.png'
+      let img = window.location.origin + '/logo_red.png'
       let url = deleteParamVal(window.location.href,"code")
       wx.updateAppMessageShareData({
         title: title, // 分享标题
@@ -682,7 +682,7 @@
 <style>
     .content .zhufuyu {
         position: absolute;
-        top: 35%;
+        top: 38%;
         font-size: 0.6em;
         font-family: 楷体;
         color: rgb(232, 207, 133);
